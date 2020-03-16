@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+header {
+    background-color: #6d8adbc7;
+    position: fixed;
+    top: 1%;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 4px;
+    text-align: center;
+    color: #eee;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin-top: 8%;
+}
+.left{
+    float: left;
+    background-color: #dae4ff;
+    width: 537px;
+    height: 350px;
+    margin-left: 35px;
+}
+.right{
+    
+    float: right;
+    
+    
+}
+form#todoForm {
+    margin-top: 49px;
+    padding: 29px;
+}
+legend{
+    margin-bottom: 33px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+input#task {
+    margin-bottom: 34px;
+    height: 25px;
+    width: 350px;
+}
+input#date{
+    height: 25px;
+    width: 350px;
+}
+input#submitButton {
+    display: block;
+    margin-top: 30px;
+    float: right;
+    margin-right: 51px;
+}
